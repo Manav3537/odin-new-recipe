@@ -1,0 +1,41 @@
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.headings, .theading {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.headings {
+    border-radius: 30px;
+    color: yellow;
+    background-color: black;
+}
+
+.theading {
+    color: black;
+}
+
+/* images styles */
+
+.macheese {
+    height: auto;
+    width: 400px;
+}
+
+.mapotato {
+    height: auto;
+    width: 400px;
+}
+
+.pumpkin {
+    height: auto;
+    width: 500px;
+}
