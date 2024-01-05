@@ -3,9 +3,33 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: 75px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.menu, .list {
+    background-color:bisque;
+    padding: 8px;
+}
+
+.menu {
+    border-bottom: 2px solid black;
+    margin-left: -40px;
+    display: inline-block;
+}
+
+.list {
+    border: 10px solid maroon;
+    border-radius: 25px;
+    margin: 25px 420px;
+    list-style-type: none;
+}
+
 .text {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-family:'Courier New', Courier, monospace
 }
 
 .headings, .theading {
@@ -14,8 +38,8 @@ body {
 }
 
 .headings {
-    border-radius: 30px;
-    color: yellow;
+    border: 5px solid gold;
+    color: gold;
     background-color: black;
 }
 
@@ -23,19 +47,68 @@ body {
     color: black;
 }
 
+span {
+   color: blue;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.desinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* hyperlink styles */
+
+a:link, a:visited, a:hover, a:active {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: 32px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: indigo;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
 /* images styles */
 
 .macheese {
     height: auto;
     width: 400px;
+   padding: 5px;
 }
 
 .mapotato {
     height: auto;
     width: 400px;
+    padding: 5px;
 }
 
 .pumpkin {
     height: auto;
     width: 500px;
+    padding: 5px;
 }
